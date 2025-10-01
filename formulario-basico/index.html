@@ -8,36 +8,42 @@
 </head>
 <body>
     <header>
-
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Formulario</li>
+                <li>Sobre mí</li>
+            </ul>
+        </nav>
     </header>
     <main>
         <form action="#" method="post">
             <fieldset>
                 <legend>Contacto</legend>
                   
-                    <div class="campos-formularios">
+                    <section class="campos-formularios">
                         <label for="nombre">Nombre: </label>
                         <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre..." required>
-                    </div>
+                    </section>
 
-                    <div class="campos-formularios">
+                    <section class="campos-formularios">
                          <label for="email">Email: </label>
                          <input type="email" id="email" name="email" placeholder="Introduce tu email..." required>
-                    </div>
+                    </section>
                     
-                    <div class="campos-formularios">
+                    <section class="campos-formularios">
                         <label for="telefono">Teléfono: </label>
                         <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu teléfono..." required>
-                    </div>
+                    </section>
 
-                    <div class="campos-formularios">
+                    <section class="campos-formularios">
                          <label for="mensaje">Mensaje: </label>
                          <textarea name="mensaje" id="mensaje" placeholder="Escribe lo que quieras comunicarme..." rows="5" required></textarea>
-                    </div>
+                    </section>
                     
-                    <div class="campos-formularios">
+                    <section class="campos-formularios">
                         <button type="submit" name="boton-formulario">Enviar</button>
-                    </div>
+                    </section>
                     
             </fieldset>
         </form>

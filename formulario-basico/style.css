@@ -74,3 +74,29 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+header {
+    display: flex;
+    height: 10vh;
+    background-color: rgb(255, 0, 200);
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul li  {
+  display: inline;
+  margin-right: 59px;
+  white-space: nowrap;
+
+  
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-wrap: nowrap;
+  
+  
+
+}
