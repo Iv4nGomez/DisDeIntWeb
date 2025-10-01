@@ -16,7 +16,7 @@ main {
   justify-content: center;
   align-items: center;   
   min-height: 100vh;      
-  background-color: rgb(255, 98, 98);
+  background: #aae4ff;
 }
 
 form {
@@ -58,8 +58,8 @@ input, textarea {
 }
 
 button {
-  background: #ff0000;
-  color: white;
+  background: #00aeff;
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -69,8 +69,8 @@ button {
 
 footer {
   width: 100%;      
-  background: #ffc3c3;  
-  color: rgb(0, 0, 0);
+  background: #ffffff;  
+    color: #303030;
   text-align: center;
   padding: 10px;
 }
@@ -78,24 +78,27 @@ footer {
 header {
     display: flex;
     height: 10vh;
-    background-color: rgb(255, 61, 61);
+    background-color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
 }
 
 nav {
-  background-color: rgb(255, 87, 87);
-  border-radius: 20px;
   padding: 10px 20px;
   display: flex;
-  color: white;
+    color: #303030;
   border: 2px solid white;
+  width: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
 }
 
 
 nav ul {
   display: flex;
-  color: white;
+  color: #303030;
   flex-wrap: nowrap;
   list-style: none;
   gap: 75px;
@@ -104,6 +107,10 @@ nav ul {
   cursor: pointer;
 }
 
+header .icono {
+
+  justify-content: end;
+}
 
 .fa-regular.fa-house:hover {
 
