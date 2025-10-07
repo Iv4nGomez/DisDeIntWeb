@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario básico - Iván Gómez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        header
+    </header>
+    <nav>
+        <span id="icono">
+            <i class="fa-regular fa-house"></i>
+        </span>
+        <ul>
+            <li>Inicio</li>
+            <li>Formulario</li>
+            <li>Sobre mí</li>
+        </ul>
+    </nav>
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contacto</legend>
+                  
+                    <section class="campos-formularios">
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre..." required>
+                    </section>
+
+                    <section class="campos-formularios">
+                         <label for="email">Email: </label>
+                         <input type="email" id="email" name="email" placeholder="Introduce tu email..." required>
+                    </section>
+                    
+                    <section class="campos-formularios">
+                        <label for="telefono">Teléfono: </label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu teléfono..." required>
+                    </section>
+
+                    <section class="campos-formularios">
+                         <label for="mensaje">Mensaje: </label>
+                         <textarea name="mensaje" id="mensaje" placeholder="Escribe lo que quieras comunicarme..." rows="5" required></textarea>
+                    </section>
+                    
+                    <section class="campos-formularios">
+                        <button type="submit" name="boton-formulario">Enviar</button>
+                    </section>
+                    
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Iván Gómez Jiménez - 2ºDAW</p>
+    </footer>
+</body>
+</html>

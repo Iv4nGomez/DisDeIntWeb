@@ -8,48 +8,148 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     background-color: white;
+    font-size: 0;
+    height: 100vh;
+    margin: 10px 10px 30px 10px;
+    background-color: aliceblue;
+}
+
+
+.modelo-caja {
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px gray;
 }
 
 header {
-    display: inline-block;
-    background-color: rgb(20, 173, 0);
-    width: 100vw;
-    padding: 20px;  
-    height: 10vh;
-    border-radius: 10px;
-
+    display: block;
+    background-color: rgb(193, 255, 99);
+    height: 10%;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: start;
+    line-height: 75px;
 }
 
+header h1 {
+    margin-left: 20px;
+}
+
+
 nav {
-    background-color: purple;
-    height: 80vh;
-    width: 30vw;
-    border-radius: 10px;
-    float: left;
-    display: block;
-    
+    display: inline-block;
+    background-color: rgb(255, 143, 143);
+    height: 80%;
+    width: 13.9%;
+   font-size: 16;
+   font-size: 16px;
+   margin-right: 10px;
+   padding: 10px;
+
+   
+}
+
+ul {
+    text-align: center;
+    font-size: x-large;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+li {
+    margin-bottom: 50px;
+}
+
+li:first-child {
+    margin-top: 10px;
 }
 
 main {
-    background-color: red;
-    border: solid 2px black;
-    height: 80vh;
-    width: 70vw;
-    float: right;
-
+    display: inline-block;
+    background-color: rgb(255, 195, 83);
+    width: 85%;
+    height: 80%;
+    vertical-align: top;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-article {
-    border: solid 2px black;
-    padding: 20px;
+main h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+main article {
+    position: relative;
+    background-color: rgb(87, 193, 255);
+    height: 150px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 30px;
+
+  
+   
+   
+}
+
+main article h3 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    
     
 }
 
+main article p {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    color: rgb(73, 73, 73);
+     clear: both;
+     width: 600px;
+
+    
+    
+}
+
+main article button {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    padding: 10px 60px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+main article button:hover {
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+main article img {
+    width:100px;
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    left: 620px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+     float: left;
+    
+}
 footer {
-    clear: left;
-    background-color: yellow;
-    border: solid 2px black;
-    width: 100vw;
-    height: 
+    background-color: rgb(213, 139, 255);
+    font-size: 16px;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    line-height: 75px;
 }
 
